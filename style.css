@@ -1,0 +1,109 @@
+@font-face {
+  font-family: font-name;
+  src: url(/fontUrl);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(115, 184, 155);
+}
+
+#panel {
+  overflow: hidden;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#ptop {
+  padding: 0 30%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(72, 104, 72);
+}
+
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.elem h2 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.box {
+  color: rgb(18, 119, 57);
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#pbtm {
+  /* padding: 20px 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(18, 119, 57);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.bubble:hover {
+  background-color: rgb(72, 104, 72);
+}
+
+.button {
+  height: 40px;
+  width: 80px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: #4caf50;
+  display: block;
+}
+
+.button:hover {
+  color: #fff;
+}
+
